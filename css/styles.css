@@ -13,7 +13,6 @@ h6 {
 }
 img {
   display: block;
-  max-width: 100%;
 }
 p {
   margin: 0;
@@ -35,21 +34,31 @@ h2,
 h3 {
   color: #2e2f42;
 }
+
 .container {
   margin-top: 25.5px;
-  padding: 0 156px;
+  padding: 0 15px;
+  width: 1158px;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.navigation {
+  align-items: center;
 }
 
-.container,
 .navigation,
 .menu,
-.list-contact {
+.link-contact {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .menu {
   gap: 40px;
   margin-left: 76px;
+  padding: 24px 0;
 }
 .list-contact {
   gap: 40px;
@@ -63,10 +72,12 @@ h3 {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .part-logo {
   color: #2e2f42;
 }
+
 .link-menu {
   color: #2e2f42;
   font-size: 16px;
