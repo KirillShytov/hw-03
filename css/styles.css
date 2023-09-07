@@ -41,20 +41,19 @@ h3 {
   width: 1158px;
   margin: 0 auto;
 }
+
+header .container,
+.navigation,
+.menu,
+.list-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.navigation {
-  align-items: center;
-}
 
-.navigation,
-.menu,
-.link-contact {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 .menu {
   gap: 40px;
   margin-left: 76px;
@@ -107,9 +106,9 @@ h3 {
 .link-contact:focus {
   color: #404bbf;
 }
-.container-section-first {
-  margin-top: 25px;
-}
+
+/* ---------------------------------------------------- */
+
 .section-first {
   background-color: #2e2f42;
   color: #fff;
