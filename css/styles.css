@@ -36,7 +36,7 @@ h3 {
 }
 
 .container {
-  padding: 0 15px;
+  padding: 24px 15px;
   width: 1158px;
   margin: 0 auto;
 }
@@ -51,7 +51,6 @@ header .container,
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .menu {
