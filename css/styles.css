@@ -36,7 +36,6 @@ h3 {
 }
 
 .container {
-  margin-top: 25.5px;
   padding: 0 15px;
   width: 1158px;
   margin: 0 auto;
@@ -52,12 +51,12 @@ header .container,
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .menu {
   gap: 40px;
   margin-left: 76px;
-  padding: 24px 0;
 }
 .list-contact {
   gap: 40px;
