@@ -52,11 +52,12 @@ header .container,
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.navigation,
-.contact {
+.link-logo,
+.link-menu,
+.link-contact {
+  display: block;
   padding: 24px 0;
 }
-
 .menu {
   gap: 40px;
   margin-left: 76px;
@@ -116,10 +117,12 @@ header .container,
   color: #fff;
   text-align: center;
   padding: 188px 0;
+}
+.section-first .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   gap: 48px;
 }
 .text-header-first {
@@ -127,6 +130,7 @@ header .container,
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  max-width: 496px;
 }
 .button {
   background-color: #4d5ae5;
@@ -140,6 +144,8 @@ header .container,
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
+  display: block;
+  min-width: 169px;
 }
 .button:hover {
   background-color: #404bbf;
@@ -147,12 +153,30 @@ header .container,
 .button:focus {
   background-color: #404bbf;
 }
+
+/* ------------------------------------------------- */
+.section-second {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .list-second-section {
   display: flex;
   padding: 0 156px;
   gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
+}
+.list-item-second-section {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .text-header-second {
@@ -168,6 +192,9 @@ header .container,
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* ------------------------------------- */
+
 .section-third {
   background-color: #f4f4fd;
 }
