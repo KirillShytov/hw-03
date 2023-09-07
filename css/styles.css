@@ -172,11 +172,10 @@ header .container,
 }
 .list-second-section {
   display: flex;
-  padding: 0 156px;
   gap: 24px;
 }
 .list-item-second-section {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .text-header-second {
